@@ -9,7 +9,8 @@ class Helper:
     def get_folder(self):
         base_path = os.getcwd()
         return os.path.join(base_path, self.path)
-
+    def get_path(self):
+        print('hullo real path')
 
 class Worker:
 
